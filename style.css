@@ -1,0 +1,155 @@
+html,
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(231, 223, 192, 0.489);
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  background-color: white;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  box-shadow: 1px 1px 10px 2px rgba(86, 83, 83, 0.432);
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+  width: 25%;
+  background-color: rgb(247, 233, 246);
+}
+
+.header {
+  background-color: rgb(5, 108, 108);
+  min-height: 150px;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.principal {
+  padding: 15px;
+}
+thead {
+  background-color: rgb(97, 48, 77);
+  color: aliceblue;
+}
+table {
+  border: solid black 1px;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(238, 221, 146);
+}
+
+tbody {
+  border: solid black 1px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.header img {
+  width: 950px;
+}
+
+.pubcuidados {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(243, 243, 240);
+}
+.pub {
+  border: solid 1px rgba(152, 149, 149, 0.669);
+  margin: 10px;
+  box-shadow: 0px 1px 5px 0.3px rgb(67, 66, 66);
+  padding: 10px;
+  display: flex;
+}
+.formulario {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formulario h2 {
+  color: #4e4e4e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formulario p {
+  font-size: 16px;
+  color: #7f7f7f;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #4e4e4e;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.formulario textarea {
+  resize: vertical;
+}
+
+.formulario button {
+  background-color: #6abf69;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #55a153;
+}
+
+.pubtexto {
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer {
+  background-color: rgba(94, 133, 143, 0.735);
+  color: rgb(0, 0, 0);
+  border-radius: none;
+  margin-top: 10px;
+  padding: 4px;
+}
+.social-icon img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.pubcuidados img {
+  width: 200px; /* Remover o "x" */
+  padding: 20px;
+  box-shadow: 0px 0.5px 3px 1px rgb(148, 139, 139); /* Corrigir "03px" para "3px" */
+}
